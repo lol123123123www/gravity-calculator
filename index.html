@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="gravicalc" content="width=device-width, initial-scale=1.0">
+    <title>Gravity calculator by harshit</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <div class="title">
+        <h1>How much force is the earth imposing on  <br><span>You?</span></h1>
+    </div>
+    <div class="inputBar">
+        <input type="text" name="" id="inputBox" placeholder="Enter your weight here">
+        <img src="atom.png" width="100px" onclick="measureForce()">
+    </div>
+    <div class="result">
+        <h1>You are currently going through <input type="text" id="result"> newtons of force</h1>
+    </div>
+    <div class="decor">
+        <img src="earth.png">
+    </div>
+    
+    <script>
+        const M= 6*Math.pow(10,24);
+        const R = 6.4*Math.pow(10,6);
+        const G  = 6.7*Math.pow(10,-11);
+
+        function measureForce(){
+            let m = inputBox.value ;
+            let f = G*((M*m)/(Math.pow(R,2)));
+            opacity = 1;
+
+            result.value = f;
+        }
+
+
+
+
+
+
+
+
+    </script>
+
+    
+</body>
+</html>

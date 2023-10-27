@@ -1,0 +1,67 @@
+body{
+    background:rgb(0, 56, 121);
+    padding-left: 45px;
+    height: 400px;
+}
+
+.title{
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+
+.title h1 span{
+    color:darkgoldenrod;
+    border-bottom: 4px solid darkgoldenrod;
+    padding-bottom: 7px;
+}
+
+.decor img{
+    padding-left: 87%;
+}
+
+.inputBar{
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #696969;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+    border-radius: 10px;
+}
+
+.inputBar input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+   
+}
+
+.inputBar img{
+    cursor: pointer;
+}
+
+.result h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    font-size: xx-large;
+}
+
+.result input{
+    width: 85px;
+    border: 0;
+    outline: 0;
+    background:rgb(0, 56, 121);
+    color: #fff;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    justify-content: center;
+    color:darkgoldenrod;
+    border-bottom: 4px solid darkgoldenrod;
+    padding-bottom: 7px;
+}
